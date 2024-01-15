@@ -1,8 +1,11 @@
-import React from 'react'
-
+import {
+  BuzzBeeMain,
+} from "../components";
 const Buzbee = () => {
   return (
-    <div>Buzbee</div>
+    <div>
+      <BuzzBeeMain />
+    </div>
   )
 }
 
