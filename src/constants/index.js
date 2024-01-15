@@ -22,6 +22,7 @@ export const navLinks = [
 export const features = [
   {
     id: "buzzebee",
+    link: "/buzzebee",
     icon: star,
     title: "buzzebee",
     content:
@@ -29,6 +30,7 @@ export const features = [
   },
   {
     id: "itservices",
+    link: "/itservice",
     icon: shield,
     title: "IT Services & Solutions",
     content:
@@ -36,6 +38,7 @@ export const features = [
   },
   {
     id: "cybersecurity",
+    link: "/cyber",
     icon: send,
     title: "CYBER SECURITY",
     content:
