@@ -4,6 +4,9 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      screens: {
+        xs: "480px",
+      },
       colors: {
         primary: "#ff5350",
         secondary: "#fff349",
@@ -12,6 +15,13 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+      },
+    },
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "20px",
+        md: "40px",
       },
     },
     screens: {

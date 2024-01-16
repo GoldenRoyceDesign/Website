@@ -30,6 +30,7 @@ import print from "./buzzbee/print 1.png";
 import proposal from "./buzzbee/proposal 1.png";
 
 // itservice
+import itServiceHero from "./itservice/hero.svg"
 
 //cyber
 
@@ -64,4 +65,5 @@ export {
   packageing,
   print,
   proposal,
+  itServiceHero
 };
