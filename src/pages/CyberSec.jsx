@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import {CyberHero} from "../components";
-
+import "./CyberSecHero.css";
 const CyberSec = () => {
   
   useEffect(() => {
@@ -12,7 +12,7 @@ const CyberSec = () => {
     });
   });
   return (
-    <div>
+    <div className="bg-dimWhite">
       <CyberHero />
     </div>
   )

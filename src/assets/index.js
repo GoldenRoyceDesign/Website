@@ -30,22 +30,22 @@ import print from "./buzzbee/print 1.png";
 import proposal from "./buzzbee/proposal 1.png";
 
 // itservice
-import itServiceHero from "./itservice/hero.svg"
-import cloudservices from "./itservice/cloudservices.jpg"
-import cybersecurity from "./itservice/cybersecurity.jpg"
-import databsebackup from "./itservice/databsebackup.jpg"
-import ItCONSULTING from "./itservice/ItCONSULTING.jpg"
-import manageditservices from "./itservice/managed-it-services.png"
-import NetworkDesign from "./itservice/Network-Design.jpg"
-import softwaredev from "./itservice/softwaredev.jpg"
+import itServiceHero from "./itservice/hero.svg";
+import cloudservices from "./itservice/cloudservices.jpg";
+import cybersecurity from "./itservice/cybersecurity.jpg";
+import databsebackup from "./itservice/databsebackup.jpg";
+import ItCONSULTING from "./itservice/ItCONSULTING.jpg";
+import manageditservices from "./itservice/managed-it-services.png";
+import NetworkDesign from "./itservice/Network-Design.jpg";
+import softwaredev from "./itservice/softwaredev.jpg";
 
 //cyber
-import cybersecherovid from "./cybersec/cybersec.mp4"
-import moonsurface from "./cybersec/moon-surface-hd.png"
+import cybersecherovid from "./cybersec/cybersec.mp4";
+import moonsurface from "./cybersec/moon-surface-hd.png";
+import wave from "./cybersec/wave Gif.gif";
+import cyb1 from "./cybersec/cyb1.png";
 
 //contact
-
-
 
 export {
   bill,
@@ -83,5 +83,7 @@ export {
   NetworkDesign,
   softwaredev,
   cybersecherovid,
-  moonsurface
+  moonsurface,
+  wave,
+  cyb1
 };
