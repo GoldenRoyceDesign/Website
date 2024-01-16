@@ -1,10 +1,9 @@
-import { CyberHero } from "../components"
+import React from 'react'
+
 const CyberSec = () => {
   return (
-    <div>
-      <CyberHero />
-    </div>
+    <div>CyberSec</div>
   )
 }
 
-export default CyberSec 
+export default CyberSec

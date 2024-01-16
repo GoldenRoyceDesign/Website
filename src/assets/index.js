@@ -1,3 +1,4 @@
+// home
 import bill from "./home/bill.png";
 import card from "./home/card.gif";
 import goldenroycelogo from "./home/goldenroycelogo.png";
@@ -16,6 +17,24 @@ import star from "./home/Star.svg";
 import menu from "./home/menu.svg";
 import close from "./home/close.svg";
 import twitter from "./home/twitter.svg";
+
+// buzzbee
+
+import advertising from "./buzzbee/Advertising Solution 1.png";
+import brandstrategy from "./buzzbee/brandstrategy 1.png";
+import copywriting from "./buzzbee/copy-writing 1.png";
+import datavisualization from "./buzzbee/data-visualization 1.png";
+import digitalmarketing from "./buzzbee/digital marketing 1.png";
+import packageing from "./buzzbee/package 1.png";
+import print from "./buzzbee/print 1.png";
+import proposal from "./buzzbee/proposal 1.png";
+
+// itservice
+
+//cyber
+
+//contact
+
 
 
 export {
@@ -37,4 +56,12 @@ export {
   twitter,
   menu,
   close,
+  advertising,
+  brandstrategy,
+  copywriting,
+  datavisualization,
+  digitalmarketing,
+  packageing,
+  print,
+  proposal,
 };

@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-import styles from "../style";
+import styles from "../../style";
 import Button from "./Button";
 
 const CTA = () => {

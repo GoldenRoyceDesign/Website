@@ -1,5 +1,5 @@
-import { bill } from "../assets";
-import styles, { layout } from "../style";
+import { bill } from "../../assets";
+import styles, { layout } from "../../style";
 
 const Billing = () => (
   <section id="aboutus" className={layout.sectionReverse}>

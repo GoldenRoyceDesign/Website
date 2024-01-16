@@ -1,5 +1,5 @@
-import styles from "../style";
-import { grdlogo2 } from "../assets";
+import styles from "../../style";
+import { grdlogo2 } from "../../assets";
 
 const Hero = () => {
   return (

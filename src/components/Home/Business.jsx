@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
-import { features } from "../constants";
-import styles, { layout } from "../style";
+import { features } from "../../constants";
+import styles, { layout } from "../../style";
 
 const FeatureCard = ({ icon, title, content, link, index }) => {
   const navigate = useNavigate();

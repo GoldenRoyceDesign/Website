@@ -1,10 +1,14 @@
-import digitalMarketing from "../assets/buzzbee/digital marketing 1.png";
-import print from "../assets/buzzbee/print 1.png";
-import copyWriting from "../assets/buzzbee/copy-writing 1.png";
-import visualization from "../assets/buzzbee/data-visualization 1.png";
-import proposal from "../assets/buzzbee/proposal 1.png";
-import brand from "../assets/buzzbee/brand strategy 1.png";
-import packageImg from "../assets/buzzbee/package 1.png";
+import {
+  advertising,
+  brandstrategy,
+  copywriting,
+  datavisualization,
+  digitalmarketing,
+  packageing,
+  print,
+  proposal,
+} from "../../assets";
+
 const Cards = () => {
   return (
     <div className="w-full py-[10rem] px-4 bg-white">
@@ -12,7 +16,7 @@ const Cards = () => {
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
             className="w-20 mx-auto mt-[-3rem] bg-white"
-            src={digitalMarketing}
+            src={digitalmarketing}
             alt="digitalMarketing"
           />
           <h2 className="text-2xl font-bold text-center py-8">
@@ -50,7 +54,7 @@ const Cards = () => {
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
             className="w-20 mx-auto mt-[-3rem] bg-white"
-            src={copyWriting}
+            src={copywriting}
             alt="copyWriting"
           />
           <h2 className="text-2xl font-bold text-center py-8">
@@ -67,7 +71,7 @@ const Cards = () => {
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
             className="w-20 mx-auto mt-[-3rem] bg-white"
-            src={visualization}
+            src={datavisualization}
             alt="visualization"
           />
           <h2 className="text-2xl font-bold text-center py-8">
@@ -102,7 +106,7 @@ const Cards = () => {
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
             className="w-20 mx-auto mt-[-3rem] bg-white"
-            src={brand}
+            src={brandstrategy}
             alt="brand"
           />
           <h2 className="text-2xl font-bold text-center py-8">
@@ -121,7 +125,7 @@ const Cards = () => {
         <div className="w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300">
           <img
             className="w-20 mx-auto mt-[-3rem] bg-white"
-            src={packageImg}
+            src={packageing}
             alt="packageImg"
           />
           <h2 className="text-2xl font-bold text-center py-8">

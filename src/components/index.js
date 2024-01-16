@@ -1,16 +1,16 @@
 import Navbar from "./Navbar";
-import About from "./About";
-import CardDeal from "./CardDeal";
-import Business from "./Business";
-import CTA from "./CTA";
+import About from "./Home/About";
+import CardDeal from "./Home/CardDeal";
+import Business from "./Home/Business";
+import CTA from "./Home/CTA";
 import Footer from "./Footer";
-import Testimonials from "./Testimonials";
-import Hero from "./Hero";
-import BuzzBeeMain from "./BuzzBeeMain";
-import BuzzBeeContent from "./BuzzBeeContent";
-import ITServiceHead from "./ITServiceHead"
-import ITServiceContent from "./ITServiceContent"
-import CyberHero from "./CyberSecHero"
+import Testimonials from "./Home/Testimonials";
+import Hero from "./Home/Hero";
+import BuzzBeeMain from "./BuzzBee/BuzzBeeMain";
+import BuzzBeeContent from "./BuzzBee/BuzzBeeContent";
+import ITServiceHead from "./ITService/ITServiceHead"
+import ITServiceContent from "./ITService/ITServiceContent"
+import CyberHero from "./CyberSec/CyberSecHero"
 export {
   Navbar,
   About,
