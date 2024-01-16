@@ -1,49 +1,89 @@
-import bill from "./bill.png";
-import binance from "./binance.png";
-import card from "./card.gif";
-import coinbase from "./coinbase.png";
-import dropbox from "./dropbox.png";
-import goldenroycelogo from "./goldenroycelogo.png";
-import quotes from "./quotes.svg";
-import grdlogo2 from "./grdlogo2.png";
-import send from "./Send.svg";
-import shield from "./Shield.svg";
-import star from "./Star.svg";
-import menu from "./menu.svg";
-import close from "./close.svg";
-import google from "./google.svg";
-import arrowUp from "./arrow-up.svg";
-import discount from "./Discount.svg";
-import facebook from "./facebook.svg";
-import instagram from "./instagram.svg";
-import linkedin from "./linkedin.svg";
-import twitter from "./twitter.svg";
-import people01 from "./people01.png";
-import people02 from "./people02.png";
-import people03 from "./people03.png";
+// home
+import bill from "./home/bill.png";
+import card from "./home/card.gif";
+import goldenroycelogo from "./home/goldenroycelogo.png";
+import goldenroycelogo2 from "./home/goldenroycelogo2.png";
+import quotes from "./home/quotes.svg";
+import grdlogo2 from "./home/grdlogo2.png";
+import facebook from "./home/facebook.svg";
+import instagram from "./home/instagram.svg";
+import linkedin from "./home/linkedin.svg";
+import people01 from "./home/people01.png";
+import people02 from "./home/people02.png";
+import people03 from "./home/people03.png";
+import send from "./home/Send.svg";
+import shield from "./home/Shield.svg";
+import star from "./home/Star.svg";
+import menu from "./home/menu.svg";
+import close from "./home/close.svg";
+import twitter from "./home/twitter.svg";
+
+// buzzbee
+
+import advertising from "./buzzbee/Advertising Solution 1.png";
+import brandstrategy from "./buzzbee/brandstrategy 1.png";
+import copywriting from "./buzzbee/copy-writing 1.png";
+import datavisualization from "./buzzbee/data-visualization 1.png";
+import digitalmarketing from "./buzzbee/digital marketing 1.png";
+import packageing from "./buzzbee/package 1.png";
+import print from "./buzzbee/print 1.png";
+import proposal from "./buzzbee/proposal 1.png";
+
+// itservice
+import itServiceHero from "./itservice/hero.svg";
+import cloudservices from "./itservice/cloudservices.jpg";
+import cybersecurity from "./itservice/cybersecurity.jpg";
+import databsebackup from "./itservice/databsebackup.jpg";
+import ItCONSULTING from "./itservice/ItCONSULTING.jpg";
+import manageditservices from "./itservice/managed-it-services.png";
+import NetworkDesign from "./itservice/Network-Design.jpg";
+import softwaredev from "./itservice/softwaredev.jpg";
+
+//cyber
+import cybersecherovid from "./cybersec/cybersec.mp4";
+import moonsurface from "./cybersec/moon-surface-hd.png";
+import wave from "./cybersec/wave Gif.gif";
+import cyb1 from "./cybersec/cyb1.png";
+
+//contact
 
 export {
   bill,
-  binance,
   card,
-  coinbase,
-  dropbox,
-  goldenroycelogo,
   quotes,
   grdlogo2,
-  send,
-  shield,
-  star,
-  menu,
-  close,
-  google,
-  arrowUp,
-  discount,
+  goldenroycelogo,
+  goldenroycelogo2,
   facebook,
   instagram,
   linkedin,
-  twitter,
   people01,
   people02,
   people03,
+  send,
+  shield,
+  star,
+  twitter,
+  menu,
+  close,
+  advertising,
+  brandstrategy,
+  copywriting,
+  datavisualization,
+  digitalmarketing,
+  packageing,
+  print,
+  proposal,
+  itServiceHero,
+  cloudservices,
+  cybersecurity,
+  databsebackup,
+  ItCONSULTING,
+  manageditservices,
+  NetworkDesign,
+  softwaredev,
+  cybersecherovid,
+  moonsurface,
+  wave,
+  cyb1
 };

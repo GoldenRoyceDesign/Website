@@ -4,14 +4,24 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      screens: {
+        xs: "480px",
+      },
       colors: {
         primary: "#ff5350",
         secondary: "#fff349",
-        dimWhite: "rgb(255, 255, 255)",
+        dimWhite: "rgba(255, 255, 255, 0.4)",
         dimBlue: "rgb(9, 151, 124)",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+      },
+    },
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "20px",
+        md: "40px",
       },
     },
     screens: {
