@@ -31,6 +31,13 @@ import proposal from "./buzzbee/proposal 1.png";
 
 // itservice
 import itServiceHero from "./itservice/hero.svg"
+import cloudservices from "./itservice/cloudservices.jpg"
+import cybersecurity from "./itservice/cybersecurity.jpg"
+import databsebackup from "./itservice/databsebackup.jpg"
+import ItCONSULTING from "./itservice/ItCONSULTING.jpg"
+import manageditservices from "./itservice/managed-it-services.png"
+import NetworkDesign from "./itservice/Network-Design.jpg"
+import softwaredev from "./itservice/softwaredev.jpg"
 
 //cyber
 
@@ -65,5 +72,12 @@ export {
   packageing,
   print,
   proposal,
-  itServiceHero
+  itServiceHero,
+  cloudservices,
+  cybersecurity,
+  databsebackup,
+  ItCONSULTING,
+  manageditservices,
+  NetworkDesign,
+  softwaredev
 };
