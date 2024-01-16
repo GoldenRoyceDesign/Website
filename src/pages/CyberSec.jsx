@@ -7,4 +7,4 @@ const CyberSec = () => {
   )
 }
 
-export default CyberSec
+export default CyberSec 
