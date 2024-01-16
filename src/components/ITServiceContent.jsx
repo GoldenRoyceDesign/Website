@@ -29,7 +29,7 @@ const BannerDetails = ({head, content, reverse, img }) => {
                 <img
                   src={img}
                   alt="No image"
-                  className="max-auto w-full hover:drop-shadow-md"
+                  className="max-auto w-fit w-full-md hover:drop-shadow-md"
                 />
               </div>
             </div>

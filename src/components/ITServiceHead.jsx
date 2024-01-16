@@ -5,12 +5,12 @@ const Hero = () => {
   return (
     <main className="bg-gradient-to-r from-violet-950 to-violet-900 pt-20 dark:bg-violet-950 my-4 p-2">
       <section className="container flex h-[650px] flex-col items-center justify-center md:h-[500px] ">
-        <div className="grid grid-cols-1 items-center gap-8 dark:text-white md:grid-cols-2">
+        <div className="grid grid-cols-1 items-center gap-4 dark:text-white md:grid-cols-2">
           <div
             data-aos="fade-right"
             data-aos-duration="400"
             data-aos-once="true"
-            className="flex flex-col items-center gap-4 text-center text-white md:items-start md:text-left "
+            className="flex flex-col items-center gap-2 text-center text-white md:items-start md:text-left "
           >
             <h1 className=" text-4xl ">
             IT Services & Solutions
@@ -23,7 +23,7 @@ const Hero = () => {
             data-aos="fade-left"
             data-aos-duration="400"
             data-aos-once="true"
-            className="mx-auto max-w-xs p-1"
+            className="mx-auto max-w p-1"
           >
             <img src={Banner} alt="No image" className="hover:drop-shadow-md" />
           </div>
