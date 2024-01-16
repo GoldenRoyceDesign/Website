@@ -40,6 +40,8 @@ import NetworkDesign from "./itservice/Network-Design.jpg"
 import softwaredev from "./itservice/softwaredev.jpg"
 
 //cyber
+import cybersecherovid from "./cybersec/cybersec.mp4"
+import moonsurface from "./cybersec/moon-surface-hd.png"
 
 //contact
 
@@ -79,5 +81,7 @@ export {
   ItCONSULTING,
   manageditservices,
   NetworkDesign,
-  softwaredev
+  softwaredev,
+  cybersecherovid,
+  moonsurface
 };
