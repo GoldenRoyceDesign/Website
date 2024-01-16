@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { close, goldenroycelogo, menu } from "../assets";
+import { close, goldenroycelogo2, menu } from "../assets";
 import { navLinks } from "../constants";
 import styles from "../style";
 
@@ -13,22 +13,11 @@ const Navbar = () => {
       <div className={`${styles.boxWidth}`}>
         <nav className="w-full flex py-6 justify-between items-center navbar">
           <img
-            src={goldenroycelogo}
+            src={goldenroycelogo2}
             alt="goldenroycedesign"
-            className="w-[64px] h-[40px]"
+            className="w-[160px] h-[170px]"
           />
-          <span
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              fontSize: "8px",
-              fontWeight: "900",
-              marginLeft: "5px",
-            }}
-          >
-            <span style={{ color: "#f0c545" }}>GOLDEN ROYCE DESIGN</span>
-            <span style={{ color: "#fff" }}>BUSINESS MADE SMART</span>
-          </span>
+      
           <ul className="list-none sm:flex hidden justify-end items-center flex-1">
             {navLinks.map((nav, index) => (
               <li
