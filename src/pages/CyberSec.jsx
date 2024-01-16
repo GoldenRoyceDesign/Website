@@ -1,8 +1,9 @@
-import React from 'react'
-
+import { CyberHero } from "../components"
 const CyberSec = () => {
   return (
-    <div>CyberSec</div>
+    <div>
+      <CyberHero />
+    </div>
   )
 }
 
