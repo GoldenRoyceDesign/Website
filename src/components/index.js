@@ -11,6 +11,7 @@ import BuzzBeeContent from "./BuzzBee/BuzzBeeContent";
 import ITServiceHead from "./ITService/ITServiceHead"
 import ITServiceContent from "./ITService/ITServiceContent"
 import CyberHero from "./CyberSec/CyberSecHero"
+import ContactUs from "./Contact/Contact";
 export {
   Navbar,
   About,
@@ -24,5 +25,6 @@ export {
   BuzzBeeContent,
   ITServiceHead,
   ITServiceContent,
-  CyberHero
+  CyberHero,
+  ContactUs
 };
